@@ -46,3 +46,9 @@ uv add numpy
 | `.python-version` | Python version uv uses (downloaded automatically if missing) |
 | `src/uv_demo/` | The package code |
 | `tests/` | pytest tests |
+
+
+## Package Chaos
+
+![xkcd python env](https://imgs.xkcd.com/comics/python_environment.png)
+
