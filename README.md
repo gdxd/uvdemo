@@ -48,7 +48,7 @@ uv add numpy
 | `tests/` | pytest tests |
 
 
-## Package Chaos
+### Important to prevent Package Chaos
 
 ![xkcd python env](https://imgs.xkcd.com/comics/python_environment.png)
 
