@@ -1,0 +1,21 @@
+[project]
+name = "uv-demo"
+version = "0.1.0"
+description = "Minimal uv project for the Collaborative Software Development course"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.scripts]
+uv-demo = "uv_demo:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[build-system]
+requires = ["uv_build>=0.8,<0.12"]
+build-backend = "uv_build"
